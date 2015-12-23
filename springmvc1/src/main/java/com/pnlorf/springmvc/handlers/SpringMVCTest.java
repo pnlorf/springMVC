@@ -23,7 +23,7 @@ import java.util.Map;
  * @version 1.0
  * @since 2015/12/22.
  */
-@RequestMapping("springmvc")
+@RequestMapping("/springmvc")
 @Controller
 public class SpringMVCTest {
 
