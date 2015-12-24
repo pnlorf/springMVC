@@ -1,6 +1,25 @@
 <html>
 <body>
 
+<!--
+    模拟修改操作
+        1.原始数据为：1，Tom，123456， tom@163.com, 12
+        2.密码不能被修改。
+        3.表单回显，模拟操作直接在表单填写对应的属性值
+-->
+<form action="springmvc/testModelAttribute" method="post">
+    <input type="hidden" name="id" value="1">
+    username: <input type="text" name="username" value="Tom">
+    <br>
+    email:<input type="text" name="email" value="tom@163.com">
+    <br>
+    age:<input type="text" name="age" value="25">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<br><br>
+<a href="springmvc/testSessionAttributes">Test SessionAttributes</a>
+<br><br>
 <a href="springmvc/testMap">Test Map</a>
 <br><br>
 <a href="springmvc/testModelAndView">Test ModelAndView</a>
