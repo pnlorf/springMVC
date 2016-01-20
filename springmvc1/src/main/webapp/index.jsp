@@ -1,6 +1,13 @@
 <html>
 <body>
 
+<br><br>
+<a href="springmvc/testRedirect">Test Redirect</a>
+<br><br>
+<a href="springmvc/testView">Test View</a>
+<br><br>
+<a href="springmvc/testViewAndViewResolver">Test ViewAndViewResolver</a>
+<br><br>
 <!--
     模拟修改操作
         1.原始数据为：1，Tom，123456， tom@163.com, 12

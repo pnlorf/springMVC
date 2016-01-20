@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%--<%@page isELIgnored="false" %>--%>
 <html>
 <head>
@@ -45,7 +46,9 @@ request names->user: ${requestScope.user}
 <br><br>
 session names->school: ${sessionScope.school}
 <br><br>
-
+<fmt:message key="i18n.username"></fmt:message>
+<br><br>
+<fmt:message key="i18n.password"></fmt:message>
 <br><br>
 
 </body>
