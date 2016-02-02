@@ -66,7 +66,7 @@
          <p id="info" hidden>地区：浙江 &nbsp; 用户总数：1234 &nbsp; 标签用户总数：321</p>
      </div>--%>
     <div class="mh_devider"></div>
-    <h2 class="mh_title" style="font-size: 24px; font-weight: bold">按标签统计体系</h2>
+    <h2 class="mh_title" style="font-size: 24px; font-weight: bold">省市街道列表</h2>
     <input type="hidden" name="selectId" id="selectId" value="">
     <input type="hidden" name="selectInfo" id="selectInfo" value="province">
     <div class="mh_tag">
